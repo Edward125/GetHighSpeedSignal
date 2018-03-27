@@ -1,0 +1,8 @@
+D:\Edward\GetHighSpeedSignal\GetHighSpeedSignal\bin\Debug\GetHighSpeedSignal.exe
+D:\Edward\GetHighSpeedSignal\GetHighSpeedSignal\bin\Debug\GetHighSpeedSignal.pdb
+D:\Edward\GetHighSpeedSignal\GetHighSpeedSignal\obj\Debug\GetHighSpeedSignal.csprojResolveAssemblyReference.cache
+D:\Edward\GetHighSpeedSignal\GetHighSpeedSignal\obj\Debug\GetHighSpeedSignal.Properties.Resources.resources
+D:\Edward\GetHighSpeedSignal\GetHighSpeedSignal\obj\Debug\GetHighSpeedSignal.csproj.GenerateResource.Cache
+D:\Edward\GetHighSpeedSignal\GetHighSpeedSignal\obj\Debug\GetHighSpeedSignal.exe
+D:\Edward\GetHighSpeedSignal\GetHighSpeedSignal\obj\Debug\GetHighSpeedSignal.pdb
+D:\Edward\GetHighSpeedSignal\GetHighSpeedSignal\obj\Debug\GetHighSpeedSignal.frmMain.resources

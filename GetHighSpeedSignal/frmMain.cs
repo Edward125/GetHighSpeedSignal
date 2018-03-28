@@ -200,6 +200,15 @@ namespace GetHighSpeedSignal
             lstMsg.Items.Add("DP high speed signal:" + HighDP.Count + ",rate:" + ((double)HighDP.Count  / (double)allusednodes.Count).ToString("0.00%"));
             lstMsg.Items.Add("PCIE high speed signal:" + HighPCIE.Count + ",rate:" + ((double)HighPCIE.Count  / (double)allusednodes.Count).ToString("0.00%"));
 
+            writeLog(AllHighSpeedSignal, "ALLHIGHSPEED");
+            writeLog(HighCNV, "CNV");
+            writeLog(HighDDR, "DDR");
+            writeLog(HighDP, "DP");
+            writeLog(HighHDMI, "HDMI");
+            writeLog(HighPCIE, "PCIE");
+            writeLog(HighSATA, "SATA");
+            writeLog(HighVRAM, "VRAM");
+
 
         }
 
@@ -225,6 +234,27 @@ namespace GetHighSpeedSignal
             }
         }
 
+
+
+        private void writeLog(List<string> nodes, string filename)
+        {
+
+            if (System.IO.File.Exists(filename))
+                System.IO.File.Delete(filename);
+
+
+            System.IO.StreamWriter sw = new System.IO.StreamWriter(filename);
+
+            sw.WriteLine(filename);
+
+            foreach (string  item in nodes )
+            {
+                sw.WriteLine(item);
+            }
+
+            sw.Close();
+
+        }
 
         
     }

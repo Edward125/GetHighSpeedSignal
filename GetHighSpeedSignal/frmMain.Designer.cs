@@ -31,6 +31,7 @@
             this.txtBoard = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.lstMsg = new System.Windows.Forms.ListBox();
+            this.btnGO = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtBoard
@@ -58,18 +59,30 @@
             this.lstMsg.ItemHeight = 14;
             this.lstMsg.Location = new System.Drawing.Point(21, 50);
             this.lstMsg.Name = "lstMsg";
-            this.lstMsg.Size = new System.Drawing.Size(360, 88);
+            this.lstMsg.Size = new System.Drawing.Size(441, 172);
             this.lstMsg.TabIndex = 2;
+            // 
+            // btnGO
+            // 
+            this.btnGO.Location = new System.Drawing.Point(387, 12);
+            this.btnGO.Name = "btnGO";
+            this.btnGO.Size = new System.Drawing.Size(75, 23);
+            this.btnGO.TabIndex = 3;
+            this.btnGO.Text = "GO";
+            this.btnGO.UseVisualStyleBackColor = true;
+            this.btnGO.Click += new System.EventHandler(this.btnGO_Click);
             // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(396, 156);
+            this.ClientSize = new System.Drawing.Size(482, 243);
+            this.Controls.Add(this.btnGO);
             this.Controls.Add(this.lstMsg);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtBoard);
             this.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "frmMain";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.frmMain_Load);
@@ -83,6 +96,7 @@
         private System.Windows.Forms.TextBox txtBoard;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ListBox lstMsg;
+        private System.Windows.Forms.Button btnGO;
     }
 }
 
